@@ -1,0 +1,11 @@
+canvas {
+    background-color: #0d207a;
+
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}

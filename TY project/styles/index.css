@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tektur:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+*{
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logo{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-right: 315px;
+}
+.am{
+    font-family:'Roboto', sans-serif ;
+    font-weight: bold;
+}
+.g{
+    font-family: 'Tektur', sans-serif;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding: 24px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight:600 ; */
+    /* font-weight: bold; */
+}
+hr{
+    width: 90%;
+    margin-top: -10px ;
+}
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+   
+
+}
+.ft{
+    letter-spacing: 2px;
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.drg{
+    margin-top: -8px;
+}
+.c1, .c2, .c3{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -80px;
+    
+    outline: 2px solid black ;
+    outline-offset: -2px ;
+
+}
+.c2, .c3{
+    margin-left: -15px;
+}
+.crt{
+    display: flex;
+    align-items: center;
+
+}
+.circles{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.txt{
+    margin-top: -85px;
+}
+.c1{
+    background-image: url(../assets/c1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c2{
+    background-image: url(../assets/c2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.c3{
+    background-image: url(../assets/c3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ideas{
+    letter-spacing: 2px;
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -90px;
+    margin-left: 15px;
+
+}
+.btm{
+    width: 550px;
+    margin-top: 45px;
+    margin-right: 60px;
+}
+.lastt{
+    margin-top: 20px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.as{
+    margin-top: 10px;
+}
+.img{
+    background-image: url(../assets/rt.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 400px;
+    width: 400px;
+    margin-top: -68px;
+    margin-left: -160px;
+    border-radius: 12px;
+}
+.inside{
+    padding: 30px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.bel{
+    margin-top: -0.1px;
+}
+.btn{
+    border-radius: 30px;
+    margin-top: 190px;
+    margin-left: 40px;
+    padding: 20px;
+    width: 265px;
+    /* height: 24px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white ;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white ;
+}
+.gamesec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+   
+}
+.card1,.card2,.card3{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px ;
+    color: black;
+}
+.card1{
+    background-color: #ff5c0c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card2{
+    background-color: #e8e4e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card3{
+    background-color: #ffcc5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gmi{
+    height: 200px;
+    width: 250px;
+    background-image: url(../assets/prr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.gmi1{
+    height: 200px;
+    width: 250px;
+    background-image: url(../assets/gmi1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gmi2{
+    height: 200px;
+    width: 250px;
+    background-image: url(../assets/gmi2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.gmt{
+    margin-top: 45px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.gmt1{
+    margin-top: 45px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.gmt2{
+    margin-top: 45px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 20px;
+}
+li:hover{
+    text-decoration: underline;
+}
+.g{
+    color: rgb(5, 192, 5);
+}
+/* our teams */
+.otcard, .otcard1{
+    background-color: #DADFF7;
+    height: 350px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 24px;
+
+}
+.otcards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+.av1{
+   
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../assets/her\ av.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name, .name1{
+    margin-top: 40px;
+    color: black;
+    font-family:'Montserrat', sans-serif; ;
+    font-size: bold;
+    font-size: 24px;
+}
+.socialm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    gap: 1rem;
+}
+.inst, .tg, .git, .twit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40px ;
+    height: 40px ;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.av2{
+    
+   
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-image: url(../assets/myav.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
